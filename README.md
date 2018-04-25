@@ -20,10 +20,10 @@ Current build status
 
 Current release info
 ====================
-[![Conda Recipe](https://img.shields.io/badge/recipe-r--sjlabelled-green.svg)](https://anaconda.org/conda-forge/r-sjlabelled)
-[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-sjlabelled.svg)](https://anaconda.org/conda-forge/r-sjlabelled)
-[![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-sjlabelled.svg)](https://anaconda.org/conda-forge/r-sjlabelled)
-[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-sjlabelled.svg)](https://anaconda.org/conda-forge/r-sjlabelled)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--sjlabelled-green.svg)](https://anaconda.org/conda-forge/r-sjlabelled) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-sjlabelled.svg)](https://anaconda.org/conda-forge/r-sjlabelled) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-sjlabelled.svg)](https://anaconda.org/conda-forge/r-sjlabelled) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-sjlabelled.svg)](https://anaconda.org/conda-forge/r-sjlabelled) |
 
 Installing r-sjlabelled
 =======================
