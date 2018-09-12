@@ -1,4 +1,4 @@
-{% set version = "1.0.13" %}
+{% set version = "1.0.14" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/sjlabelled_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/sjlabelled/sjlabelled_{{ version }}.tar.gz
-  sha256: 9b23580ae832ed8a970e72939e1f3d0a199ea23607d427f944765998eb913f76
+  sha256: 5cbd0d9bb4ae647b928def2b31ca905c5e3593dd0ffc82b3524ef2952afcce2b
 
 build:
   number: 0
