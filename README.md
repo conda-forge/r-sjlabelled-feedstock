@@ -1,7 +1,7 @@
 About r-sjlabelled
 ==================
 
-Home: https://github.com/strengejacke/sjlabelled
+Home: https://github.com/strengejacke/sjlabelled, https://strengejacke.github.io/sjlabelled
 
 Package license: GPL-3
 
