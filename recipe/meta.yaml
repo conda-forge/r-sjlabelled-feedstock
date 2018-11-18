@@ -14,9 +14,9 @@ source:
   sha256: 5cbd0d9bb4ae647b928def2b31ca905c5e3593dd0ffc82b3524ef2952afcce2b
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 0
-  skip: true  # [win32]
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -59,8 +59,7 @@ about:
     and variable label attributes, to convert  labelled vectors into factors or numeric
     (and vice versa), or to deal with  multiple declared missing values.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
