@@ -1,4 +1,4 @@
-{% set version = "1.1.5" %}
+{% set version = "1.1.6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sjlabelled_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sjlabelled/sjlabelled_{{ version }}.tar.gz
-  sha256: 63ed720d9d1f6112f19671e29d9fa98688bdc0efe617e4260d83677e5a9d3a3f
+  sha256: f8fb6f3f4bcc7f1fb6634a8e336208d546c9c4f23a2ebb248e911f76a2076b77
 
 build:
   merge_build_host: true  # [win]
