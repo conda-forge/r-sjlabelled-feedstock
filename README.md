@@ -5,7 +5,7 @@ Home: https://strengejacke.github.io/sjlabelled
 
 Package license: GPL-3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Collection of functions dealing with labelled data, like reading and  writing data between R and other statistical software packages like 'SPSS', 'SAS' or 'Stata', and working with labelled data. This includes easy ways  to get, set or change value and variable label attributes, to convert  labelled vectors into factors or numeric (and vice versa), or to deal with  multiple declared missing values.
 
