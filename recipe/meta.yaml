@@ -1,4 +1,4 @@
-{% set version = "1.1.8" %}
+{% set version = "1.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sjlabelled_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sjlabelled/sjlabelled_{{ version }}.tar.gz
-  sha256: 40f94e57c7ccf73402692a1e20a7c07a3e2c1e3a6b28eaf579ebe541729ffa9d
+  sha256: 731c7e907361971dbc890ad80bc95a38ecc38455a0217fdbc3dbb7c60b3648ed
 
 build:
   merge_build_host: true  # [win]
@@ -23,22 +23,15 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-haven >=1.1.2
-    - r-insight >=0.4.1
-    - r-magrittr
-    - r-purrr
-    - r-rlang
-    - r-tidyselect
+    - r-datawizard
+    - r-insight
   run:
     - r-base
-    - r-haven >=1.1.2
-    - r-insight >=0.4.1
-    - r-magrittr
-    - r-purrr
-    - r-rlang
-    - r-tidyselect
+    - r-datawizard
+    - r-insight
 
 test:
   commands:
