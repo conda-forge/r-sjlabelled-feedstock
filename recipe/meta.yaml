@@ -1,6 +1,5 @@
 {% set version = "1.2.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-sjlabelled
@@ -13,8 +12,7 @@ source:
   sha256: 731c7e907361971dbc890ad80bc95a38ecc38455a0217fdbc3dbb7c60b3648ed
 
 build:
-  merge_build_host: true  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
